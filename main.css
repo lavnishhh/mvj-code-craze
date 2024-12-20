@@ -58,3 +58,7 @@ html, body{
     color: white;
 }
 
+.grid > img{
+    margin: 10px;
+}
+
