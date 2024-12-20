@@ -27,13 +27,19 @@
                 <div>Careers</div>
                 <div>Gallery</div>
             </div>
-            <div class="md-hide" style="margin-right: 1rem;">
+            <div class="md-hide" style="margin-right: 1rem;" id="hambur">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                     stroke="currentColor" style="height: 2rem; width: 2rem;">
                     <path stroke-linecap="round" stroke-linejoin="round"
                         d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
                 </svg>
             </div>
+        </div>
+        <div class="nav-headers hidden md-flex" style="justify-content: space-around; margin-right: 1rem;">
+            <div>Events</div>
+            <div>News</div>
+            <div>Careers</div>
+            <div>Gallery</div>
         </div>
     </nav>
     <div style="width: 100vw; position: relative;">
@@ -94,6 +100,42 @@
         </div>
     </div>
 
+    <div style="display: flex; justify-content: center; flex-direction: column; align-items: center;">
+        <div style="font-size: 3rem; margin-top: 10px;" class="text-red">Enquire</div>
+
+        <div style="display: flex;" class="flex-norm">
+            <div>
+                <form class="form" id="enq-form">
+                    <div>
+                        <input id="name" type="text" name="name" required placeholder="Name">    
+                    </div>
+                    <div>
+                        <input id="name" type="number" name="marks" required placeholder="12th Marks">    
+                    </div>
+                    <div>
+                        <input id="name" type="email" name="email" required placeholder="Email">
+                    </div>
+                    <div>
+                        <label>Select Course</label>
+                        <select required>
+                            <option>AIML</option>
+                            <option>CSE</option>
+                            <option>ISE</option>
+                            <option>ECE</option>
+                            <option>EEE</option>
+                        </select>   
+                    </div>
+                    <div class="button" id="submit">Submit</div>
+                </form>
+            </div>
+            <div style="margin: 20px;">
+                <div style="font-size: 3rem;">Requirements:</div>
+                <p>Minimum 12th Grade %: 75</p>
+                <p>PU/School should be done in PCM</p>
+            </div>
+        </div>
+    </div>
+    <script src="./scripts.js"></script>
 
 </body>
 
