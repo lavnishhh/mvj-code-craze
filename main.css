@@ -3,10 +3,17 @@ html, body{
     padding: 0px;
     margin: 0px;
     overflow-x: hidden;
+    background-color: black;
+    color: white;
 }
 
 .nav-headers > div{
     padding: 0px 10px 0px 10px;
+}
+
+.nav-headers > div:hover{
+    background-color: rgb(255, 255, 135);
+    color: black;
 }
 
 
@@ -24,3 +31,30 @@ html, body{
         display: none;
     }
 }
+
+.text-red{
+    color: rgb(255, 118, 118);
+}
+
+.text-yellow{
+    color: rgb(241, 255, 118);
+}
+
+.bg-red{
+    background-color: rgb(255, 118, 118);
+}
+
+.bg-yellow{
+    background-color: rgb(241, 255, 118);
+}
+
+.card{
+    background-color: white;
+    color: black; 
+}
+
+.card:hover{
+    background-color: rgb(59, 59, 59);
+    color: white;
+}
+
