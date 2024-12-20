@@ -2,15 +2,25 @@ html, body{
     font-family: "Poppins", serif;
     padding: 0px;
     margin: 0px;
+    overflow-x: hidden;
 }
 
 .nav-headers > div{
     padding: 0px 10px 0px 10px;
-    color: black;
 }
 
-@media (min-width: 768px){
-    .md-hide{
+
+.hidden{
+    display: none;
+}
+
+
+@media (min-width: 768px) {
+    .md-flex {
+        display: flex;
+    }
+
+    .md-hide {
         display: none;
     }
 }

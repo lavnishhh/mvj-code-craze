@@ -1,34 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MVJCE</title>
     <link href="./main.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-    <nav style="position: absolute;">
-        <div style="width: 100vw; display: flex; justify-content: space-between; height: 4rem; align-items: center; background-color: rgba(255, 255, 255, 0.411);">
+    <nav>
+        <div
+            style="background-color: rgb(65, 44, 0); color: white; display: flex; justify-content: space-between; height: 4rem; align-items: center;">
             <div>
-                <img style="height: 3rem; padding: 1rem;" src="https://mvjce.edu.in/wp-content/uploads/2024/02/logo-autonomous-white-001-1024x574.webp">
+                <img style="height: 3rem; padding: 1rem;"
+                    src="https://mvjce.edu.in/wp-content/uploads/2024/02/logo-autonomous-white-001-1024x574.webp">
             </div>
-            <div class="nav-headers" style="display: flex; justify-content: space-around;">
+            <div class="nav-headers hidden md-flex" style="justify-content: space-around;">
                 <div>Events</div>
                 <div>News</div>
                 <div>Careers</div>
                 <div>Gallery</div>
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-                  </svg>
-                  
+            </div>
+            <div class="md-hide" style="margin-right: 1rem;">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" style="height: 2rem; width: 2rem;">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
             </div>
         </div>
     </nav>
-    <div style="width: 100vw;">
-        <img style="width: 100%;" src="./assets/college.jpeg">
+    <div style="width: 100vw; position: relative;">
+        <div style="position: absolute; color: rgb(255, 255, 255); font-size: 4rem; top: 10%; padding-left: 30px;">
+            WELCOME TO MVJCE
+        </div>
+        <img style="width: 100%; height: 100vh; object-fit: cover;" src="./assets/college.jpeg">
+    </div>
+    <div style="display: flex; justify-content: center; flex-direction: column; align-items: center;">
+        <div style="font-size: large;">About Us</div>
+        <p style="padding: 2rem; text-justify:justify;">
+            Embarking on a transformative journey spanning four decades, MVJ College of Engineering has evolved into a dynamic hub of learning, blending technical prowess with character development. The goal of MVJCE has been to create efficient programmes that allow students to be carefully transformed into highly motivated graduates and postgraduates, enriched with professional competence, managerial skills, inherent dynamism and humanism, and industry ready. The curriculum is revamped based on the recommendations of NEP 2020, AICTE (Model Curriculum), UGC, VTU as well as National, Societal & industry requirements.
+        </p>
     </div>
 </body>
+
 </html>
